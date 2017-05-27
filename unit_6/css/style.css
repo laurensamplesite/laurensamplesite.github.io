@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+body {
+	font-family: Roboto, sans-serif;
+	font-weight: light 300;
+	color: 383838;
+	font:size 1 em;
+}
+
+h1 {
+	color: 	#2E472A;
+	font-family: Playfair Display;
+	font-weight: Bold 700;
+	font-size: 50px;
+	text-align: center;
+}
+
+#slogan {
+	font-family: Playfair Display;
+	font-weight: lighter;
+	font-style: italic;
+	color: #8B7A72;
+	text-align: center;
+}
+
+#list {
+	font-family: Playfair Display;
+	font-weight: Bold 700;
+	font-color: #2E472A;
+	font-size: 2 em;
+}
+
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+div {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
+.wrapper {
+	background-color: #FFE2B8;
+}
+
+#two-column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+}
