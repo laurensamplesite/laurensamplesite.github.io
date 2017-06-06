@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 30px;
+    font-family: Playfair Display;
+    font-weight: Bold;
+    text-align: center;
+
+}
+
+#description {
+	font-family: Playfair Display;
+	text-align: center;
+}
+
+#button {
+	text-align: center;
+}
+
+.button {
+    background-color: pink;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+
+.container {
+	padding-bottom: 50px;
+}
+
+.col1, .col2, .col3 {
+}
+
+.col1 {
+	float: left;
+	text-align: center;
+}
+
+.col2 {
+	float: center;
+	text-align: center;
+}
+
+.col3 {
+	float: right;
+	text-align: center;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+}
+
+hr {
+	width: 300px;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	font-weight: light 300;
+	color: 383838;
+	font:size 1 em;
+}
+
+h1 {
+	color: 	#2E472A;
+	font-family: Playfair Display;
+	font-weight: Bold 700;
+	font-size:40px;
+	text-align: center;
+}
+
+h2 {
+	font-family: Playfair Display;
+	font-weight: Bold;
+	color: #867A6F;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+h3 {
+	font-family: Playfair Display;
+	font-weight: Bold;
+	color:pink;
+	font-size:;
+}
+
+#slogan {
+	font-family: Playfair Display;
+	font-weight: lighter;
+	font-style: italic;
+	color: #8B7A72;
+	text-align: center;
+	padding-bottom: -100px;
+}
+
+#list {
+	font-family: Playfair Display;
+	font-weight: Bold 700;
+	font-color: #2E472A;
+	font-size: 2 em;
+}
+
+
+header {
+	padding: 20px;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: -100px;
+}
+
+nav a {
+	font-family: Roboto;
+	font-weight: Bold;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 1 px;
+	padding-right: 30px;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background-color: #2E472A;
+	font-family: Playfair Display;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+.trinity {
+width: 100%;
+}
+
+#content {
+	width: 33%;
+	float: left;
+
+}
+
+#middle {
+	width: 33%;
+	display: inline-block;
+
+}
+
+#sidebar {
+	width: 33%;
+	float: right;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+	nav {
+    	float: none;
+    }
+  
+  	nav a {
+      margin: 0 1.6em .75em 0;
+    }
+
